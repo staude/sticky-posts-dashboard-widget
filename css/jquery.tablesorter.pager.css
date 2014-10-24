@@ -1,0 +1,70 @@
+div.tablesorterPager {
+	padding: 10px 0 10px 0;
+	background-color: #D6D2C2;
+	text-align: center;
+}
+div.tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+div.tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+div.tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+div.tablesorterPager input {
+	font-size: 8px;
+	width: 50px;
+	border: 1px solid #330000;
+	text-align: center;
+}
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.tablesorter thead tr .header {
+    font-family: "dashicons";
+}
+
+table.tablesorter thead tr .header:after {
+    content: '\f156';
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F9F9F9;
+}
+table.tablesorter thead tr .headerSortUp {
+        font-family: "dashicons";
+}
+
+table.tablesorter thead tr .headerSortUp:after {
+    content: '\f140';
+}
+
+table.tablesorter thead tr .headerSortDown {
+    font-family: "dashicons";
+}
+
+table.tablesorter thead tr .headerSortDown:after {
+    content: '\f142';
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp, table.tablesorter thead tr .sortable {
+        background-color: #fff;
+}
+  
+
+.scheduledposts a:before {content:'\f109' !important;}
