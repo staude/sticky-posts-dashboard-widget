@@ -1,4 +1,4 @@
-=== Sticky Posts Dashboad Widget ===
+=== Sticky Posts Dashboard Widget ===
 Contributors: f.staude
 Donate link: http://www.staude.net/donate
 Tags: widgets, dashboard, posts, sticky
