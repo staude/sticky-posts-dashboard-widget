@@ -4,7 +4,7 @@
 PLUGINSLUG="sticky-posts-dashboard-widget"
 CURRENTDIR=`pwd`
 MAINFILE="$PLUGINSLUG.php" # This should be the name of your main php file in the WordPress plugin
-DEFAULT_EDITOR="/usr/bin/joe"
+DEFAULT_EDITOR="/usr/bin/vim"
 
 # git config
 GITPATH="$CURRENTDIR/" # this file should be in the base of your git repository
@@ -22,9 +22,9 @@ echo
 
 # Check version in readme.txt is the same as plugin file after translating both to unix
 # line breaks to work around grep's failure to identify mac line breaks
-NEWVERSION1=`grep "^Stable tag:" $GITPATH/readme.txt | awk -F' ' '{print $NF}'`
+NEWVERSION1=`grep "^Stable tag:" "$GITPATH/readme.txt" | awk -F' ' '{print $NF}'`
 echo "readme.txt version: $NEWVERSION1"
-NEWVERSION2=`grep "Version: " $GITPATH/$MAINFILE | awk -F' ' '{print $NF}'`
+NEWVERSION2=`grep "Version: " "$GITPATH/$MAINFILE" | awk -F' ' '{print $NF}'`
 echo "$MAINFILE version: $NEWVERSION2"
 
 if [ "$NEWVERSION1" != "$NEWVERSION2" ]
